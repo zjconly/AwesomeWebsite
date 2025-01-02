@@ -2,9 +2,47 @@
 
 body {
 	display: flex;
+	flex-direction: column;
 	font-family: Roboto, sans-serif;
 }
 
 ul {
 	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #E5E7EB;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.links {
+	display: flex;
+	font-size: 18px;
+	color: #E5E7EB;
+	gap: 20px;
+	align-items: center;
+	padding-right: 48px;
+}
+
+.headerLogo {
+	font-size: 24px;
+	color: #F9FAF8;
+	padding-left: 48px;
+}
+
+.heroHeader {
+	font-size: 48px;
+	color: #F9FAF8;
+	font-weight: 900;
+}
+
+.header,
+.oneBody {
+	background: #1F2937;
+	color: white;
 }
