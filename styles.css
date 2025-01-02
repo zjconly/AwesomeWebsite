@@ -2,4 +2,9 @@
 
 body {
 	display: flex;
+	font-family: Roboto, sans-serif;
+}
+
+.link {
+	list-style: none;
 }
