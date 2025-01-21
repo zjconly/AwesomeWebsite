@@ -15,6 +15,12 @@ a {
 	color: #E5E7EB;
 }
 
+.header,
+.oneBody {
+	background: #1F2937;
+	color: white;
+}
+
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -26,13 +32,13 @@ a {
 	color: #E5E7EB;
 	gap: 20px;
 	align-items: center;
-	padding-right: 48px;
+	margin-right: 48px;
 }
 
 .headerLogo {
 	font-size: 24px;
 	color: #F9FAF8;
-	padding-left: 48px;
+	margin-left: 48px;
 }
 
 .heroHeader {
@@ -46,25 +52,27 @@ a {
 	color: #E5E7EB;
 }
 
+.oneBody {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 48px;
+}
+
+.leftOneBody {
+	margin-left: 48px;	
+}
+
 .rightOneBody {
-	width: 500px;
+	width: 425px;
 	height: 200px;
 	background: #808080;
 	align-content: center;
 	justify-content: center;
+	margin-right: 48px;
+	text-align: center;
 }
 
-/* img {
-
-} */
-
-.oneBody {
-	display: flex;
-	align-items: center;
-}
-
-.header,
-.oneBody {
-	background: #1F2937;
-	color: white;
+img {
+	flex-grow: 1;
 }
